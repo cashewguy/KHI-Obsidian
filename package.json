@@ -1,0 +1,30 @@
+{
+  "name": "khi-plugin",
+  "version": "0.0.1",
+  "description": "An Obsidian plugin to selectively import Kindle highlights from My Clippings.txt into the current note.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "kindle",
+    "highlights"
+  ],
+  "author": "Thomas B",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "rollup": "^3.29.5",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
+}

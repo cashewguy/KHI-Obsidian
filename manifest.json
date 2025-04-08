@@ -1,0 +1,10 @@
+{
+	"id": "khi-plugin",
+	"name": "Kindle Selective Highlight Importer",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+  	"description": "Import highlights from a Kindle Clippings file for a specific book into your current Obsidian note.",
+  	"author": "Thomas B",
+	"authorUrl": "https://solo.to/thomasb",
+	"isDesktopOnly": true
+}
